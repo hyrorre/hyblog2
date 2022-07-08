@@ -1,10 +1,23 @@
 <template>
-  <header class="navbar bg-dark">
-    <div class="container-fluid">
-    <nuxt-link class="navbar-brand text-white" href="#">HY Techs</nuxt-link>
+  <header class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <nuxt-link class="navbar-brand" to="/">HY Techs</nuxt-link>
+      <ul class="navbar-nav flex-row gap-4">
+        <li class="nav-item">
+          <nuxt-link class="nav-link" to="/profile">Profile</nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link class="nav-link" to="/products">Products</nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
+        </li>
+      </ul>
     </div>
   </header>
-  <NuxtPage></NuxtPage>
+  <main class="container">
+    <NuxtPage></NuxtPage>
+  </main>
 </template>
 
 <style lang="scss">
