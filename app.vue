@@ -1,14 +1,16 @@
 <template>
-  <h1>Hello, World!!</h1>
-  <p>{{ num }}</p>
-  <button @click="++num" class="btn btn-primary m-2" style="width: 60px">+</button>
-  <button @click="--num" class="btn btn-primary m-2" style="width: 60px">-</button>
+  <header class="navbar bg-dark">
+    <div class="container-fluid">
+    <nuxt-link class="navbar-brand text-white" href="#">HY Techs</nuxt-link>
+    </div>
+  </header>
+  <NuxtPage></NuxtPage>
 </template>
-
-<script setup lang="ts">
-const num = ref(1)
-</script>
 
 <style lang="scss">
 @import 'node_modules/bootstrap/scss/bootstrap';
+
+img {
+  width: 100%;
+}
 </style>
