@@ -24,6 +24,10 @@
 <style lang="scss">
 @import 'node_modules/bootstrap/scss/bootstrap';
 
+.link-dark:hover {
+  color: $secondary !important;
+}
+
 img {
   width: 100%;
 }
