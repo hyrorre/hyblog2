@@ -18,6 +18,7 @@
   <main class="container">
     <NuxtPage></NuxtPage>
   </main>
+  <footer class="text-center bg-light py-4">© 2020-{{ new Date().getFullYear() }} hyrorre</footer>
 </template>
 
 <style lang="scss">
