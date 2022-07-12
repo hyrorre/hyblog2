@@ -1,4 +1,14 @@
-# WSL2 上のコンテナを Windows 上の Docker Desktop で管理する方法
+---
+title: WSL2 上のコンテナを Windows 上の Docker Desktop で管理する方法
+cover: https://hyrorre.com/wp-content/uploads/2021/11/image-4.png
+date: 2021-11-05
+categories:
+  - Development
+tags:
+  - Windows
+  - Linux
+  - Docker
+---
 
 WSL2にあるdocker-compose.ymlを使用してbuildし、そのコンテナをDocker Desktopで管理するやり方です。
 ![Docker Desktop](https://hyrorre.com/wp-content/uploads/2021/11/image-4.png) 

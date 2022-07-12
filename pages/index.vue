@@ -6,6 +6,7 @@
           <h2>{{ post.title }}</h2>
         </nuxt-link>
         <div>{{ post.description }}</div>
+        <img :src="post.cover" />
       </article>
     </ContentList>
     <ul class="pagination justify-content-center mt-4">

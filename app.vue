@@ -32,4 +32,30 @@
 img {
   width: 100%;
 }
+
+.content-doc {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    a {
+      color: $body-color;
+      text-decoration: none;
+      pointer-events: none;
+    }
+  }
+
+  h2 {
+    margin-top: 3rem;
+  }
+
+  pre {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: $gray-900;
+  }
+}
 </style>
