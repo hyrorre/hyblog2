@@ -1,11 +1,12 @@
 <template>
   <div>
     <ContentList v-slot="{ list }">
-      <article v-for="post in list" :key="post._path" class="py-4 border-bottom">
-        <nuxt-link :to="post._path" class="link-dark text-decoration-none">
-          <h2 class="pb-4">{{ post.title }}</h2>
+      <article v-for="page in list" :key="page._path" class="py-4 border-bottom">
+        <nuxt-link :to="page._path" class="link-dark text-decoration-none">
+          <h2>{{ page.title }}</h2>
         </nuxt-link>
-        <ContentDoc :path="post._path" excerpt class="content-doc"></ContentDoc>
+        <MyContentHeader :page="page" class="mb-3"></MyContentHeader>
+        <ContentDoc :path="page._path" excerpt class="content-doc"></ContentDoc>
       </article>
     </ContentList>
     <ul class="pagination justify-content-center mt-4">
