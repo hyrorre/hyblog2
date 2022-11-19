@@ -58,7 +58,9 @@ img {
   }
 
   h2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid $gray-300;
   }
 
   pre {
