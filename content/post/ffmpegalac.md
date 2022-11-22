@@ -8,10 +8,12 @@ tags:
   - Linux
 ---
 
-```bash:ターミナルで実行
+```shell
 # すべてのファイルを変換する場合
 find . -type f -exec ffmpeg -i {} -vn -acodec alac {}.m4a \;
 
 # 拡張子を指定する場合
 find . -name "*.wav" -exec ffmpeg -i {} -vn -acodec alac {}.m4a \;
 ```
+
+※ audio.wav → audio.wav.m4a といった風にファイル名変換されます。
