@@ -6,5 +6,10 @@ export default defineNuxtConfig({
       // Theme used in all color schemes.
       theme: 'nord'
     }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
   }
 })
