@@ -11,7 +11,7 @@ tags:
 ---
 
 WSL2にあるdocker-compose.ymlを使用してbuildし、そのコンテナをDocker Desktopで管理するやり方です。
-![Docker Desktop](https://hyrorre.com/wp-content/uploads/2021/11/image-4.png) 
+<img src="https://hyrorre.com/wp-content/uploads/2021/11/image-4.png" class="shadow">
 
 <!--more-->
 
