@@ -59,6 +59,12 @@ img {
     border-top: 1px solid $gray-300;
   }
 
+  h3 {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid $gray-300;
+  }
+
   pre {
     padding: 1rem;
     border-radius: 0.5rem;
