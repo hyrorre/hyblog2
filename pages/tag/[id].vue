@@ -5,7 +5,7 @@
         <nuxt-link :to="page._path" class="link-dark text-decoration-none">
           <h2>{{ page.title }}</h2>
         </nuxt-link>
-        <MyContentHeader :page="page" class="mb-3"></MyContentHeader>
+        <MyContentHeader :post="page" class="mb-3"></MyContentHeader>
         <ContentDoc :path="page._path" excerpt class="content-doc"></ContentDoc>
       </article>
     </ContentList>
