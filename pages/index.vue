@@ -22,3 +22,10 @@
     </ul>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: '',
+  titleTemplate: 'HY Techs'
+})
+</script>

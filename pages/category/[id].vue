@@ -27,4 +27,8 @@
 <script setup lang="ts">
 const route = useRoute()
 const query = { path: '/post', where: { categories: { $contains: route.params.id } } }
+
+useHead({
+  titleTemplate: `カテゴリ検索 ${route.params.id} | HY Techs`
+})
 </script>
