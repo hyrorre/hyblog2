@@ -1,25 +1,11 @@
 <template>
   <div class="d-flex flex-column h-100">
-    <header class="navbar navbar-dark bg-dark">
-      <div class="container">
-        <nuxt-link class="navbar-brand" to="/">HY Techs</nuxt-link>
-        <ul class="navbar-nav flex-row gap-4">
-          <li class="nav-item">
-            <nuxt-link class="nav-link" to="/profile">Profile</nuxt-link>
-          </li>
-          <li class="nav-item">
-            <nuxt-link class="nav-link" to="/products">Products</nuxt-link>
-          </li>
-          <li class="nav-item">
-            <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main class="container flex-grow-1">
-      <NuxtPage></NuxtPage>
+    <Header></Header>
+    <main class="container flex-grow-1 d-flex flex-column flex-lg-row align-items-start">
+      <NuxtPage class="container flex-grow-1"></NuxtPage>
+      <Sidebar></Sidebar>
     </main>
-    <footer class="text-center bg-light py-4">© 2020-{{ new Date().getFullYear() }} hyrorre</footer>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -41,6 +27,16 @@ body,
 
 img {
   width: 100%;
+}
+
+.sidebar {
+  width: 100%;
+}
+
+@include media-breakpoint-up(lg) {
+  .sidebar {
+    width: 330px;
+  }
 }
 
 .content-doc {
