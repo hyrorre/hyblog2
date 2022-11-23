@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentList v-slot="{ list }" :query="{ path: '/post' }">
+    <ContentList v-slot="{ list }" :query="{ path: '/post', sort: { date: -1 } }">
       <article v-for="page in list" :key="page._path" class="py-4 border-bottom">
         <nuxt-link :to="page._path" class="link-dark text-decoration-none">
           <h2>{{ page.title }}</h2>
