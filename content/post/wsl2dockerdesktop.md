@@ -1,6 +1,6 @@
 ---
 title: WSL2 上のコンテナを Windows 上の Docker Desktop で管理する方法
-cover: https://hyrorre.com/wp-content/uploads/2021/11/image-4.png
+cover: https://old.hyrorre.com/wp-content/uploads/2021/11/image-4.png
 date: 2021-11-05
 categories:
   - Development
@@ -11,7 +11,7 @@ tags:
 ---
 
 WSL2にあるdocker-compose.ymlを使用してbuildし、そのコンテナをDocker Desktopで管理するやり方です。
-<img src="https://hyrorre.com/wp-content/uploads/2021/11/image-4.png" class="shadow">
+<img src="https://old.hyrorre.com/wp-content/uploads/2021/11/image-4.png" class="shadow">
 
 <!--more-->
 
@@ -31,16 +31,16 @@ WSL2上にdocker-compose.ymlを含むプロジェクトが準備できている�
 
 Settings→Resources→WSL INTEGRATIONの画面で表示されるチェックボックスとトグルスイッチをONにします。
 
-![](https://hyrorre.com/wp-content/uploads/2021/11/image.png)
+![](https://old.hyrorre.com/wp-content/uploads/2021/11/image.png)
 
 ## 再度WSL2でコマンドを叩く
 
-![](https://hyrorre.com/wp-content/uploads/2021/11/image-1.png)
+![](https://old.hyrorre.com/wp-content/uploads/2021/11/image-1.png)
 
 docker-compose build が動きました。
 
 ## Docker Desktopで管理できる
 
-![](https://hyrorre.com/wp-content/uploads/2021/11/image-3.png)
+![](https://old.hyrorre.com/wp-content/uploads/2021/11/image-3.png)
 
 あとはよしなに。

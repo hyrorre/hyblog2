@@ -4,11 +4,11 @@ date: 2022-11-19
 ---
 
 ## このブログ
-http://hyrorre.com  
+https://hyrorre.com  
 Nuxt 3, Nuxt Content, Bootstrap 5で製作。
 
 ## 前のブログ
-https://hyrorre.com  
+https://old.hyrorre.com  
 WordPressで製作。  
 テーマの一部をJS, CSSでカスタマイズしました。
 

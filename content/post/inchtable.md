@@ -8,7 +8,7 @@ tags:
 ---
 
 モニター、スクリーン、ディスプレイのインチ数と幅・高さ(mm)の対応早見表です。
-<img src="https://hyrorre.com/wp-content/uploads/2022/11/aspect.png" class="shadow">
+<img src="https://old.hyrorre.com/wp-content/uploads/2022/11/aspect.png" class="shadow">
 
 <!--more-->
 

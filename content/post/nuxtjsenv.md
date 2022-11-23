@@ -13,7 +13,7 @@ tags:
 
 開発環境と本番環境でAPIのURLを切り替えたいと思ったので調べました。  
 他の記事で紹介されている方法よりもシンプルに実現できたと思います。  
-<img src="https://hyrorre.com/wp-content/uploads/2021/10/1_GzDBs0lKGg35RRK50dTNtQ_crop.jpg" class="shadow">
+<img src="https://old.hyrorre.com/wp-content/uploads/2021/10/1_GzDBs0lKGg35RRK50dTNtQ_crop.jpg" class="shadow">
 
 <!--more-->
 
