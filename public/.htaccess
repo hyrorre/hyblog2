@@ -3,5 +3,5 @@
   RewriteBase /
   RewriteCond %{HTTPS} off
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-  RewriteRule ^(.*)index.*$ /$1 [R=301,L]
+  RewriteRule ^(.*)index.html$ /$1 [R=301,L]
 </IfModule>
