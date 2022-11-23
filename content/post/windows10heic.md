@@ -1,6 +1,6 @@
 ---
 title: Windows 10/11でiPhoneの写真(.heic)ファイルを開く方法
-date: 2021-9-14
+date: 2021-09-14
 categories:
   - PC
 tags:
