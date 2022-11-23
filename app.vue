@@ -1,8 +1,8 @@
 <template>
   <div class="d-flex flex-column h-100">
     <Header></Header>
-    <main class="container flex-grow-1 d-flex flex-column flex-lg-row align-items-start">
-      <NuxtPage class="container flex-grow-1"></NuxtPage>
+    <main class="container-xl flex-grow-1 d-flex flex-column flex-lg-row align-items-start">
+      <NuxtPage class="container-xl flex-grow-1"></NuxtPage>
       <Sidebar></Sidebar>
     </main>
     <Footer></Footer>
