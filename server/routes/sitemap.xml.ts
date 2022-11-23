@@ -7,6 +7,10 @@ export default defineEventHandler(async (event: any) => {
   const sitemap = new SitemapStream({
     hostname: 'https://hyrorre.com'
   })
+  sitemap.write({
+    url: '/',
+    changefreq: 'daily'
+  })
   for (const doc of docs) {
     sitemap.write({
       url: doc._path,
