@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1 class="py-4 my-0 border-bottom"><i class="bi bi-folder me-2"></i>カテゴリ検索 {{ route.params.id }}</h1>
     <ContentList v-slot="{ list }" :query="query">
       <article v-for="page in list" :key="page._path" class="py-4 border-bottom">
         <nuxt-link :to="page._path" class="link-dark text-decoration-none">
