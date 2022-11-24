@@ -7,7 +7,7 @@
           <h2>{{ page.title }}</h2>
         </nuxt-link>
         <MyContentHeader :post="page" class="mb-3"></MyContentHeader>
-        <ContentDoc :path="page._path" excerpt class="content-doc"></ContentDoc>
+        <ContentDoc :path="page._path" excerpt class="content-doc" :head="false"></ContentDoc>
       </article>
     </ContentList>
     <ul class="pagination justify-content-center mt-4">
@@ -29,6 +29,6 @@ const route = useRoute()
 const query = { path: '/post', where: { categories: { $contains: route.params.id } }, sort: { date: -1 } }
 
 useHead({
-  titleTemplate: `カテゴリ検索 ${route.params.id} | HY Techs`
+  title: `カテゴリ検索 ${route.params.id}`
 })
 </script>
