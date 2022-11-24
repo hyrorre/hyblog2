@@ -3,6 +3,19 @@
     v-if="route.path !== '/contact'"
     class="sidebar text-secondary border-start flex-shrink-0 my-4 mx-2 ms-lg-3 p-3"
   >
+    <ContentDoc v-if="route.name === 'post-id'" v-slot="{ doc: page }">
+      <h4><i class="bi bi-list-ul me-2"></i>目次</h4>
+      <ul>
+        <li v-for="link of page.body.toc.links">
+          <a :href="`#${link.id}`" class="text-secondary text-decoration-none">{{ link.text }}</a>
+          <ul v-if="link.children">
+            <li v-for="child of link.children">
+              <a :href="`#${child.id}`" class="text-secondary text-decoration-none">{{ child.text }}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </ContentDoc>
     <h4><i class="bi bi-folder me-2"></i>カテゴリ</h4>
     <ul class="list-unstyled">
       <li v-for="category of categories">
