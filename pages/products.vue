@@ -7,3 +7,12 @@
     </ContentDoc>
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  meta: [
+    { property: 'og:title', content: 'Profile | HY Techs' },
+    { property: 'og:url', content: 'https://hyrorre.com/profile' }
+  ]
+})
+</script>

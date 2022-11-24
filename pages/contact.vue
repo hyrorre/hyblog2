@@ -6,6 +6,10 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Contact'
+  title: 'Contact',
+  meta: [
+    { property: 'og:title', content: 'Profile | HY Techs' },
+    { property: 'og:url', content: 'https://hyrorre.com/profile' }
+  ]
 })
 </script>
