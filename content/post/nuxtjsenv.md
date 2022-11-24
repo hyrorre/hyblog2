@@ -1,5 +1,6 @@
 ---
 title: 【Nuxt.js】環境変数(.envファイル)を切り替える方法
+cover: https://old.hyrorre.com/wp-content/uploads/2021/10/1_GzDBs0lKGg35RRK50dTNtQ_crop.jpg
 date: 2021-10-17
 categories:
   - Develop

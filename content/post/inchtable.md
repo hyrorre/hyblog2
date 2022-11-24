@@ -1,5 +1,6 @@
 ---
 title: 【早見表】モニターのインチ数⇔幅・高さ(mm)
+cover: https://old.hyrorre.com/wp-content/uploads/2022/11/aspect.png
 date: 2018-01-28
 categories:
   - PC

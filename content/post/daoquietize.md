@@ -1,5 +1,6 @@
 ---
 title: 【beatmania IIDX/BMS】DAOコン(FP7)購入レポート & 静音化改造のやり方解説【INFINITAS】
+cover: https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg
 date: 2018-07-19
 categories:
   - Game
