@@ -1,6 +1,6 @@
 ---
 title: 【beatmania IIDX/BMS】DAOコン(FP7)購入レポート & 静音化改造のやり方解説【INFINITAS】
-cover: https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg
+cover: https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg
 date: 2018-07-19
 categories:
   - Game
@@ -16,7 +16,7 @@ SDVX, ボルテコンの鍵盤は形が違いますが、同じ方法が使え�
 
 改造は自己責任で。
 
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg" class="shadow">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg" class="shadow">
 
 <!--more-->
 
@@ -38,9 +38,9 @@ FP7 EMP
 LED色 : 鍵盤は赤、皿周りは青 (アーケードbeatmania IIDX旧筐体と同じ)
 
 ## ご対面
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0035.jpg" class="shadow mb-4 me-2" style="width: 300px">
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0036.jpg" class="shadow mb-4 me-2" style="width: 300px">
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0035.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0036.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg" class="shadow mb-4 me-2" style="width: 300px">
 
 やっぱかっけぇぇ〜〜〜
 
@@ -64,8 +64,8 @@ LED色 : 鍵盤は赤、皿周りは青 (アーケードbeatmania IIDX旧筐体�
 
 画像のようにゴム手袋を切って置きます。多少小さくてもOKですが、大きすぎると鍵盤の戻りが悪くなってハマるので注意。
 
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0086.jpg" class="shadow mb-4 me-2" style="width: 300px">
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0085.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0086.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0085.jpg" class="shadow mb-4 me-2" style="width: 300px">
 
 ゴム手袋を複数枚重ねるとその分静音効果が高くなりますが、その分ストローク(ボタンの沈み込み)が短くなり、押した時の感覚がなんかゴムっぽいフニャッとした感覚になります。  
 DAOボタンは純正の三和ボタンに比べてストロークが長い(多分)ので、ゴムを入れることでむしろACに近くなる(多分)のでオススメです。(多分)
@@ -75,9 +75,9 @@ DAOボタンは純正の三和ボタンに比べてストロークが長い(多�
 ### ボタンが接触して音が鳴る場所にマスキングテープを貼る
 今回貼った場所は3ヶ所。
 
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0039.jpg" class="shadow mb-4 me-2" style="width: 200px">
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0040.jpg" class="shadow mb-4 me-2" style="width: 200px">
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0041-1.jpg" class="shadow mb-4 me-2" style="width: 200px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0039.jpg" class="shadow mb-4 me-2" style="width: 200px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0040.jpg" class="shadow mb-4 me-2" style="width: 200px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0041-1.jpg" class="shadow mb-4 me-2" style="width: 200px">
 
 1枚目の場所にマスキングテープを貼ると、鍵盤がわずかに戻りにくくなるので、テープを貼った部分に上からシリコンスプレーを吹きかけた後、ハンカチやタオルで拭いてなじませます。
 
@@ -86,7 +86,7 @@ DAOボタンは純正の三和ボタンに比べてストロークが長い(多�
 ### バネを切って鍵盤を軽くする
 バネを切ること自体に静音効果があるかはわかりませんが、鍵盤を軽くすることによって軽い力で叩けるので音が小さくなるという理論は一理あると思います。
 
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0087-1.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0087-1.jpg" class="shadow mb-4 me-2" style="width: 300px">
 
 デフォルトオプションのバネは60gなので、一般的に軽いと言われる鍵盤のバネ(20g程度)に比べると結構重く、デフォルトで注文した人は切るのがオススメ。
 
@@ -96,8 +96,8 @@ DAOボタンは純正の三和ボタンに比べてストロークが長い(多�
 
 あと、鍵盤内にバネを戻す時、バネの端っこが飛び出てると鍵盤がうまく戻ってこないので確認しておきましょう。
 
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0089.png" class="shadow mb-4 me-2" style="width: 300px">
-<img src="https://blog.hyrorre.com/wp-content/uploads/2018/07/IMG_0088.jpg" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0089.png" class="shadow mb-4 me-2" style="width: 300px">
+<img src="https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0088.jpg" class="shadow mb-4 me-2" style="width: 300px">
 
 ## おわり
 ここまでを鍵盤7つ分やってようやく終わりです。だらだらやって4時間くらいかかりました。
