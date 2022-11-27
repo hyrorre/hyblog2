@@ -3,7 +3,7 @@ title: WSL2 上のコンテナを Windows 上の Docker Desktop で管理する�
 cover: https://old.hyrorre.com/wp-content/uploads/2021/11/image-4.png
 date: 2021-11-05
 categories:
-  - Development
+  - Develop
 tags:
   - Windows
   - Linux
