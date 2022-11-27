@@ -11,6 +11,10 @@ export default defineEventHandler(async (event: any) => {
     url: '/',
     changefreq: 'daily'
   })
+  sitemap.write({
+    url: '/contact',
+    changefreq: 'daily'
+  })
   for (const doc of docs) {
     sitemap.write({
       url: doc._path,
