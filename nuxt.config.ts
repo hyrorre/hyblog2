@@ -19,13 +19,25 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: ['@nuxt/content'],
-  content: {
-    highlight: {
-      // Theme used in all color schemes.
-      theme: 'nord'
-    }
-  },
+  modules: [
+    [
+      '@nuxt/content',
+      {
+        highlight: {
+          // Theme used in all color schemes.
+          theme: 'nord'
+        }
+      }
+    ],
+    [
+      '@nuxtjs/google-adsense',
+      {
+        id: 'ca-pub-1154104535471881',
+        analyticsUacct: 'G-FJ56FBFFV9',
+        analyticsDomainName: 'hyrorre.com'
+      }
+    ]
+  ],
   nitro: {
     prerender: {
       routes: ['/sitemap.xml']
