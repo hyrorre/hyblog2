@@ -1,7 +1,7 @@
 <template>
   <aside
     v-if="route.path !== '/contact'"
-    class="sidebar text-secondary border-start flex-shrink-0 my-4 mx-2 ms-lg-3 p-3"
+    class="sidebar text-secondary border-start flex-glow-0 flex-shrink-0 my-4 mx-2 ms-lg-3 p-3"
   >
     <ContentDoc v-if="route.name === 'post-id'" v-slot="{ doc: page }">
       <h4><i class="bi bi-list-ul me-2"></i>目次</h4>

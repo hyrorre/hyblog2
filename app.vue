@@ -1,8 +1,8 @@
 <template>
   <div class="d-flex flex-column h-100">
     <Header></Header>
-    <main class="container-xl flex-grow-1 d-flex flex-column flex-lg-row align-items-start">
-      <NuxtPage class="container-xl flex-grow-1"></NuxtPage>
+    <main class="container-xl flex-grow-1 d-flex flex-column flex-xl-row align-items-start">
+      <NuxtPage class="container flex-grow-1"></NuxtPage>
       <Sidebar></Sidebar>
     </main>
     <Footer></Footer>
@@ -55,6 +55,7 @@ img {
 
   h2 {
     margin-top: 2rem;
+    margin-bottom: 1rem;
     padding-top: 2rem;
     border-top: 1px solid $gray-300;
   }
