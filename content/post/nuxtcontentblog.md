@@ -1,6 +1,6 @@
 ---
 title: Nuxt Content (Nuxt3版)を使ってブログを作ってみた
-cover: https://old.hyrorre.com/wp-content/uploads/2018/07/IMG_0038-e1531991675301.jpg
+cover: https://old.hyrorre.com/wp-content/uploads/2022/12/content.png
 date: 2022-12-05
 categories:
   - Develop
