@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "command",
+      "name": "dev",
+      "program": "./.fleet/dev.sh",
+    },
+    {
+      "type": "command",
+      "name": "deploy",
+      "program": "./deploy.sh",
+    },
+
+  ]
+}
