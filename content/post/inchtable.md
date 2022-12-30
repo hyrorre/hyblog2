@@ -13,4 +13,6 @@ tags:
 
 <!--more-->
 
+<iframe src="/affiliate/lgmonitor.html" width="100%" height="240px"></iframe>
+
 <inch-table></inch-table>

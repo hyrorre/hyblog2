@@ -21,4 +21,11 @@ useHead({
     { property: 'twitter:card', content: page.cover ? 'summary_large_image' : 'summary' }
   ]
 })
+
+onMounted(() => {
+  const iframes = document.getElementsByTagName('iframe')
+  for (const iframe of iframes) {
+    iframe.style.height = iframe.contentWindow?.document.body.scrollHeight + 'px'
+  }
+})
 </script>
