@@ -4,12 +4,12 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: '%s | HY Techs',
       meta: [
-        { name: 'description', content: 'インターネット音ゲーマー 兼 フリーランスWebエンジニアによる雑記ブログ' },
+        { name: 'description', content: '音ゲーマー 兼 フリーランスWebエンジニアによる雑記ブログ' },
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: 'HY Techs' },
         {
           property: 'og:description',
-          content: 'インターネット音ゲーマー 兼 フリーランスWebエンジニアによる雑記ブログ'
+          content: '音ゲーマー 兼 Webエンジニアによる雑記ブログ'
         },
         { property: 'og:url', content: 'https://hyrorre.com' },
         { property: 'og:site_name', content: 'HY Techs' },
